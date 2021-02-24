@@ -1,0 +1,107 @@
+{
+  "uid" : "50592dfe30bf0602",
+  "name" : "test_fixture_zcc3[cc_calculator_shuju3]",
+  "fullName" : "test_fixture_zcc.TestCal_cc_new#test_fixture_zcc3",
+  "historyId" : "a9b0aa3f9d4e548279d625f572b6bf4a",
+  "time" : {
+    "start" : 1609398357980,
+    "stop" : 1609398357981,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -0.1 == 0.3\n  +-0.1\n  -0.3",
+  "statusTrace" : "self = <cc_work.test_fixture_zcc.TestCal_cc_new object at 0x00000000039B4908>, cc_calculator_func = <cc_work.calculator_cc.Calculator object at 0x00000000039DA6A0>, cc_calculator_shuju = [0.1, 0.2, 0.3]\n\n    @pytest.mark.run(order=2)\n    def test_fixture_zcc3(self, cc_calculator_func, cc_calculator_shuju):\n        result = cc_calculator_func.sub(cc_calculator_shuju[0], cc_calculator_shuju[1])\n        print('这是测试用例3')\n        # print(result)\n>       assert result == cc_calculator_shuju[2]\nE       assert -0.1 == 0.3\nE         +-0.1\nE         -0.3\n\ntest_fixture_zcc.py:39: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cc_calculator_shuju",
+    "time" : {
+      "start" : 1609398357980,
+      "stop" : 1609398357980,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "cc_calculator_func",
+    "time" : {
+      "start" : 1609398357980,
+      "stop" : 1609398357980,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cc_calculator_shuju::0",
+    "time" : {
+      "start" : 1609398357988,
+      "stop" : 1609398357988,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal_cc_new"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "12680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cc_calculator_shuju",
+    "value" : "[0.1, 0.2, 0.3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "50592dfe30bf0602.json",
+  "parameterValues" : [ "[0.1, 0.2, 0.3]" ]
+}

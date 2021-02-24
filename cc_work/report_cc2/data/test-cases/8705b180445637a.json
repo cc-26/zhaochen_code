@@ -1,0 +1,101 @@
+{
+  "uid" : "8705b180445637a",
+  "name" : "test_fixture_zcc2[cc_calculator_shuju4]",
+  "fullName" : "test_fixture_zcc.TestCal_cc_new#test_fixture_zcc2",
+  "historyId" : "52eb41618c46a6827ebc80233dfb96a9",
+  "time" : {
+    "start" : 1609398358141,
+    "stop" : 1609398358141,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cc_calculator_shuju",
+    "time" : {
+      "start" : 1609398358140,
+      "stop" : 1609398358140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "cc_calculator_func",
+    "time" : {
+      "start" : 1609398358141,
+      "stop" : 1609398358141,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cc_calculator_shuju::0",
+    "time" : {
+      "start" : 1609398358143,
+      "stop" : 1609398358143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal_cc_new"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "12680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cc_calculator_shuju",
+    "value" : "[4, 2, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8705b180445637a.json",
+  "parameterValues" : [ "[4, 2, 2]" ]
+}

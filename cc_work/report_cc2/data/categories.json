@@ -1,0 +1,264 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 5 == 6\n  +5\n  -6",
+      "children" : [ {
+        "name" : "test_fixture_zcc[cc_calculator_shuju0]",
+        "uid" : "f6ad7d6c02a87c8c",
+        "parentUid" : "0836e9f13ae447cfe7b59931ca3c010a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357796,
+          "stop" : 1609398357798,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 2, 6]" ]
+      } ],
+      "uid" : "0836e9f13ae447cfe7b59931ca3c010a"
+    }, {
+      "name" : "AssertionError: assert 0.30000000000000004 == 0.3\n  +0.30000000000000004\n  -0.3",
+      "children" : [ {
+        "name" : "test_fixture_zcc[cc_calculator_shuju3]",
+        "uid" : "23eec93e8cce5323",
+        "parentUid" : "320e36680fe67cbd9cff890a7f13a349",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357893,
+          "stop" : 1609398357894,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      } ],
+      "uid" : "320e36680fe67cbd9cff890a7f13a349"
+    }, {
+      "name" : "AssertionError: assert 6 == 2\n  +6\n  -2",
+      "children" : [ {
+        "name" : "test_fixture_zcc[cc_calculator_shuju4]",
+        "uid" : "3cabeb622277e32",
+        "parentUid" : "701924271de724f2e5bff093c8cc56de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357905,
+          "stop" : 1609398357905,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 2, 2]" ]
+      } ],
+      "uid" : "701924271de724f2e5bff093c8cc56de"
+    }, {
+      "name" : "AssertionError: assert 1 == 6\n  +1\n  -6",
+      "children" : [ {
+        "name" : "test_fixture_zcc3[cc_calculator_shuju0]",
+        "uid" : "d322d1886b67b487",
+        "parentUid" : "89c6c1e15379f6ce3cc79803a80dd00a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357932,
+          "stop" : 1609398357933,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 2, 6]" ]
+      } ],
+      "uid" : "89c6c1e15379f6ce3cc79803a80dd00a"
+    }, {
+      "name" : "AssertionError: assert 1 == -3\n  +1\n  --3",
+      "children" : [ {
+        "name" : "test_fixture_zcc3[cc_calculator_shuju1]",
+        "uid" : "4943d4564c8f1765",
+        "parentUid" : "0c5ceddef10d01de92ed0ef08d505fb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357943,
+          "stop" : 1609398357943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -2, -3]" ]
+      } ],
+      "uid" : "0c5ceddef10d01de92ed0ef08d505fb1"
+    }, {
+      "name" : "AssertionError: assert 0 == 2000\n  +0\n  -2000",
+      "children" : [ {
+        "name" : "test_fixture_zcc3[cc_calculator_shuju2]",
+        "uid" : "5e2d931ceba8920c",
+        "parentUid" : "d02eb34e2cd8e0cccd56ea5722814474",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357954,
+          "stop" : 1609398357954,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1000, 1000, 2000]" ]
+      } ],
+      "uid" : "d02eb34e2cd8e0cccd56ea5722814474"
+    }, {
+      "name" : "AssertionError: assert -0.1 == 0.3\n  +-0.1\n  -0.3",
+      "children" : [ {
+        "name" : "test_fixture_zcc3[cc_calculator_shuju3]",
+        "uid" : "50592dfe30bf0602",
+        "parentUid" : "727731a6eb279f270e2d336b647c2847",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398357980,
+          "stop" : 1609398357981,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      } ],
+      "uid" : "727731a6eb279f270e2d336b647c2847"
+    }, {
+      "name" : "AssertionError: assert 2 == -3\n  +2\n  --3",
+      "children" : [ {
+        "name" : "test_fixture_zcc4[cc_calculator_shuju1]",
+        "uid" : "7a57fb937ad0c344",
+        "parentUid" : "76e8212010ee06528d786b390d2d3ccb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358017,
+          "stop" : 1609398358018,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -2, -3]" ]
+      } ],
+      "uid" : "76e8212010ee06528d786b390d2d3ccb"
+    }, {
+      "name" : "AssertionError: assert 1000000 == 2000\n  +1000000\n  -2000",
+      "children" : [ {
+        "name" : "test_fixture_zcc4[cc_calculator_shuju2]",
+        "uid" : "26ed20b99da739c6",
+        "parentUid" : "369681aa547c3f409bb9ad72cbd7f6d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358029,
+          "stop" : 1609398358030,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1000, 1000, 2000]" ]
+      } ],
+      "uid" : "369681aa547c3f409bb9ad72cbd7f6d7"
+    }, {
+      "name" : "AssertionError: assert 0.020000000000000004 == 0.3\n  +0.020000000000000004\n  -0.3",
+      "children" : [ {
+        "name" : "test_fixture_zcc4[cc_calculator_shuju3]",
+        "uid" : "255f7816fb16e29a",
+        "parentUid" : "df405b6fdc0c9426b9fb9f1d5bcc61d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358039,
+          "stop" : 1609398358039,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      } ],
+      "uid" : "df405b6fdc0c9426b9fb9f1d5bcc61d1"
+    }, {
+      "name" : "AssertionError: assert 8 == 2\n  +8\n  -2",
+      "children" : [ {
+        "name" : "test_fixture_zcc4[cc_calculator_shuju4]",
+        "uid" : "2c1779219baf06ca",
+        "parentUid" : "00213a310e2ac1b572e3be3c308bf878",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358069,
+          "stop" : 1609398358069,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 2, 2]" ]
+      } ],
+      "uid" : "00213a310e2ac1b572e3be3c308bf878"
+    }, {
+      "name" : "AssertionError: assert 1.5 == 6\n  +1.5\n  -6",
+      "children" : [ {
+        "name" : "test_fixture_zcc2[cc_calculator_shuju0]",
+        "uid" : "1a6e6303a2ab267c",
+        "parentUid" : "53de9eb91ad23ec450c2313359d2ca07",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358082,
+          "stop" : 1609398358083,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 2, 6]" ]
+      } ],
+      "uid" : "53de9eb91ad23ec450c2313359d2ca07"
+    }, {
+      "name" : "AssertionError: assert 0.5 == -3\n  +0.5\n  --3",
+      "children" : [ {
+        "name" : "test_fixture_zcc2[cc_calculator_shuju1]",
+        "uid" : "5fc8552e25ae8b56",
+        "parentUid" : "f139c9a72a3a8ac9e8a92250e19ee10d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358097,
+          "stop" : 1609398358097,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -2, -3]" ]
+      } ],
+      "uid" : "f139c9a72a3a8ac9e8a92250e19ee10d"
+    }, {
+      "name" : "AssertionError: assert 1.0 == 2000\n  +1.0\n  -2000",
+      "children" : [ {
+        "name" : "test_fixture_zcc2[cc_calculator_shuju2]",
+        "uid" : "15ca210a69ee0ae0",
+        "parentUid" : "3bb161952a8884402eeeda1da791e095",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358119,
+          "stop" : 1609398358119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1000, 1000, 2000]" ]
+      } ],
+      "uid" : "3bb161952a8884402eeeda1da791e095"
+    }, {
+      "name" : "AssertionError: assert 0.5 == 0.3\n  +0.5\n  -0.3",
+      "children" : [ {
+        "name" : "test_fixture_zcc2[cc_calculator_shuju3]",
+        "uid" : "86fb36bf67289501",
+        "parentUid" : "9f55bdc6eff027cfb5d8ae5708996a06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609398358130,
+          "stop" : 1609398358130,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      } ],
+      "uid" : "9f55bdc6eff027cfb5d8ae5708996a06"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

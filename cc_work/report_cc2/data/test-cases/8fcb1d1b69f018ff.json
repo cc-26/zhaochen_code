@@ -1,0 +1,101 @@
+{
+  "uid" : "8fcb1d1b69f018ff",
+  "name" : "test_fixture_zcc[cc_calculator_shuju2]",
+  "fullName" : "test_fixture_zcc.TestCal_cc_new#test_fixture_zcc",
+  "historyId" : "0daffac128f4d747dd2db40567891c76",
+  "time" : {
+    "start" : 1609398357885,
+    "stop" : 1609398357885,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cc_calculator_shuju",
+    "time" : {
+      "start" : 1609398357884,
+      "stop" : 1609398357884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "cc_calculator_func",
+    "time" : {
+      "start" : 1609398357884,
+      "stop" : 1609398357884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cc_calculator_shuju::0",
+    "time" : {
+      "start" : 1609398357890,
+      "stop" : 1609398357890,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal_cc_new"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "12680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_zcc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cc_calculator_shuju",
+    "value" : "[1000, 1000, 2000]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fcb1d1b69f018ff.json",
+  "parameterValues" : [ "[1000, 1000, 2000]" ]
+}
