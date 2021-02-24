@@ -47,4 +47,4 @@ def test_weixin_request():
     #删除成员信息
     url = f'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={cc_access_token}&userid=airuiliy'
     r = requests.get(url)
-    print(r.json()) 
+    print(r.json())
