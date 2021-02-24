@@ -16,6 +16,7 @@ def test_weixin_request():
     print(r.json())
     cc_access_token = r.json()['access_token']
     print(cc_access_token)
+    assert r.json()
 
     #创建成员
     url = f'https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token={cc_access_token}'
